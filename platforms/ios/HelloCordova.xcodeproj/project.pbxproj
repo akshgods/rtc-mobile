@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CB9749A05F4B329877D352 /* libfield_trial_default.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3611720E916943BC847E8570 /* libfield_trial_default.a */; };
+		0248D1D3B93C4F88AACC2390 /* librtc_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798F5E2026724F278FB2C59C /* librtc_base.a */; };
+		0746DEFF4CBD4CF1A82B92DE /* libnss_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B18489A299A24AB08D4CFFBC /* libnss_static.a */; };
+		074BC815F903466FB87DE0EA /* lib_core_neon_offsets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 390F3484C9C64E03962FBCC5 /* lib_core_neon_offsets.a */; };
+		09D3A70C6E364A2383FFF039 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 985915DC2B234273A1C9B923 /* libicuuc.a */; };
+		0AB847F4889743AA9BFA31AD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AACD2FFEF65643AF934AF41C /* libsqlite3.0.dylib */; };
+		121D7CD1F01E4B3A808CE45C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4DDA75B865496694F61926 /* CoreMedia.framework */; };
+		1384807CF03B4C6BAE41462E /* libisac_neon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2335C69F174A6AA1BC592B /* libisac_neon.a */; };
+		171BC72A056C4608A66A8408 /* libicudata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96365B96D2DC4227919243C7 /* libicudata.a */; };
+		194B5D9C0F95449F97D26033 /* libvpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF1E04F52904934BF8FBBE8 /* libvpx.a */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1E5B69EA5AD84E548B632B62 /* librtc_base_approved.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3319D666205D4609ADDC6FAC /* librtc_base_approved.a */; };
+		214C4D697CB044E087387754 /* libcrssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A020933EF154345BCAB0354 /* libcrssl.a */; };
+		24869CD92C5F4442B5F2CA20 /* libvpx_asm_offsets_vpx_scale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13032CA211AC44319CAA8B76 /* libvpx_asm_offsets_vpx_scale.a */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		2B9CBC3734AB473B869CB88E /* libwebrtc_utility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D118E473A064080A84CAB4D /* libwebrtc_utility.a */; };
+		2E8D97EB832E481A937CDFEE /* libvideo_render_module_internal_impl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5B8EE6884B44BE87FD0EED /* libvideo_render_module_internal_impl.a */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
@@ -28,7 +43,37 @@
 		30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
 		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		3419021A91CD4CE48B674975 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303302A27C6B4277B78B227E /* CoreAudio.framework */; };
+		35F92465C6F14B59ABDA3367 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2873CBF63445C68C49B9FB /* AVFoundation.framework */; };
+		3DD4BD3DEEBF4151B5ECFCF5 /* libcrnspr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C43AC11714245BA873D34A6 /* libcrnspr.a */; };
+		3DEA1DF7867843638C4FE008 /* libpaced_sender.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A01E997A424D998DB88539 /* libpaced_sender.a */; };
+		45A879988A6549159F3D7265 /* libneteq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17949688297D4C149F684B4B /* libneteq.a */; };
+		479F23988D724BDD8D377AD5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79452E5E46914C11996DD6A6 /* Config.swift */; };
+		4818B6469A384DA7A1B5B0B2 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B151EEE76E2648918DCEAF5B /* libopus.a */; };
+		48FE53285F9C4E74A37C621E /* PhoneRTCPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA03C149BAE49DA95202C79 /* PhoneRTCPlugin.swift */; };
+		49E427000CF648ABB71AA7CB /* libcommon_audio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3EF2B3B4DE436D8BECA247 /* libcommon_audio.a */; };
+		4E6B69FF8A814CBC861F5590 /* libcommon_audio_neon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101BE418C6A940C9A86BEB80 /* libcommon_audio_neon.a */; };
+		50166257779E4009ADA3732F /* PCObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023C88758BA4F1DB8109706 /* PCObserver.swift */; };
+		538C5DD998A04E46BB5BABFA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12431F3E922480CBA6DCF38 /* OpenGLES.framework */; };
+		5837129543954EE1BFCDDEF6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA906C7D9E44FB69D0A0DD6 /* AudioToolbox.framework */; };
+		5955E5E227164DA69180D558 /* librtc_xmllite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F34C154FD1147BD8B59517E /* librtc_xmllite.a */; };
+		5AB9A11FEDE44B0BA9390672 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B7AC6644B242E696A89B2C /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		5B6638A810C049C98AE0CF6A /* libexpat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91919291697D4A1E9E1B290A /* libexpat.a */; };
+		5B7F55F543CB41B988A6494E /* libwebrtc_i420.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F20150D827644561854BC850 /* libwebrtc_i420.a */; };
+		5DC544ECBE564B9DA7499AD1 /* libaudio_device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC4C7A655814B10A05B8361 /* libaudio_device.a */; };
+		6044E5FB0F2B47939D0C1B8E /* libPCM16B.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64647D3C194FF49C1D5082 /* libPCM16B.a */; };
+		61B4F8EA1F4D4725BE02D908 /* libaudio_conference_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B501DA4E414444A5B65FE7 /* libaudio_conference_mixer.a */; };
+		68616C6AB6E54B5FAEBD8A37 /* librtc_xmpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B6D271C9FC4A4DA4119553 /* librtc_xmpp.a */; };
+		6D77EC0DD22F48A18E645DC6 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B4EF8653DC43F4847E2D10 /* libstdc++.dylib */; };
+		7247A117D5CD4F1DBBBA813F /* libiSACFix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABBE28E1A64E37BCB07288 /* libiSACFix.a */; };
+		72F65227AFE84D588B27D64A /* libcommon_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 511B2618F94D46F9B253C8E8 /* libcommon_video.a */; };
+		74ECDC4FC76B4570A7F0562B /* libG722.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4A1E3F23DF402A9B16F623 /* libG722.a */; };
+		7545827F549943BE8BF8CF88 /* libCNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D8F2708D348D88A531136 /* libCNG.a */; };
+		7609CD1495204F21AC94F38B /* librtc_p2p.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D25BDCB64A4178A0F00A93 /* librtc_p2p.a */; };
+		763610DD3A3641E4B41448FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2845B25F09AC42CB9B404B1B /* QuartzCore.framework */; };
+		7BE520739F434386A035E6E0 /* libwebrtc_vp8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AF417EC27E48F18C915FAE /* libwebrtc_vp8.a */; };
+		7E2478815DB34FEF898B84F9 /* libsqlite_regexp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 796FE9E4E06F452D802B4875 /* libsqlite_regexp.a */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
 		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
 		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
@@ -39,7 +84,51 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		80EA43B246A845358C9440F1 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA45D0BD742431EBAC0B8EA /* libc++.dylib */; };
+		8110DA7A978D4E27867324FE /* libmedia_file.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA67794574D409DA92BAABE /* libmedia_file.a */; };
+		8F7620F4B6384BD2BE0D8332 /* librtc_sound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4073C1625A41E9B4364025 /* librtc_sound.a */; };
+		94CE3E6D95E54F8CBAD9AAB8 /* librbe_components.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC06D6D3C7464CA667C98C /* librbe_components.a */; };
+		97C5C4D7E7E049BCB9811D56 /* libG711.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A69C5B76D664FCC9FF51101 /* libG711.a */; };
+		9A6FCF32D71244BC9C249FF2 /* librtp_rtcp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2C930492F647D898113B5C /* librtp_rtcp.a */; };
+		9AE75097D2F844BFAF1C85ED /* libbitrate_controller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51765F542DE244FA9D2BF7C3 /* libbitrate_controller.a */; };
+		9CAD4C77619840BBB11FDAF8 /* libsrtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC773726BF34028950F0A02 /* libsrtp.a */; };
+		A379BB75E39D4D179E2A2904 /* libcrnssckbi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E65D21521F884F1CA33A1381 /* libcrnssckbi.a */; };
+		A40BA8142D5941FFAECC8A46 /* libiLBC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AF11928D1E4FE393C35BBE /* libiLBC.a */; };
+		A5929145104246C3B516A741 /* libwebrtc_opus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DD0168B4644D118303CA0D /* libwebrtc_opus.a */; };
+		A6F79599D880440F8A1F1BBE /* libjingle_peerconnection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77EB112A4003406F9FA9FCAB /* libjingle_peerconnection.a */; };
+		A7508709D15D4B4A8D4039F2 /* libvpx_asm_offsets_vp8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8169F9CAE3D843E3B67F35BF /* libvpx_asm_offsets_vp8.a */; };
+		A78FB70CEE3043759C3D5E6F /* libaudio_processing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA5327DA8314913ABE2B27D /* libaudio_processing.a */; };
+		B24210F11CA44406965CFD76 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41B70A5D8246EB93F2A31C /* libicui18n.a */; };
+		B3BBF376899849F6884A6B34 /* libvideo_processing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019783AD308648CBB7CBDE04 /* libvideo_processing.a */; };
+		B6E16B799DC54D9EA3CB7824 /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40A24B5664424486AA2A1E /* libyuv.a */; };
+		B8B6C23C030E47178EAB8324 /* libyuv_neon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE096A59838444C08B023290 /* libyuv_neon.a */; };
+		B8D0CEDCA5BA43EAA8E2706F /* libaudio_coding_module.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FBF5DB6F934378910E5B22 /* libaudio_coding_module.a */; };
+		BC309F355D8A41B6B22C43F1 /* libvideo_capture_module.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 592D3D89E49E4ACBA5CA2C03 /* libvideo_capture_module.a */; };
+		CDF0235FD62D46DF870D8D69 /* libjingle_media.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A495539F00864131A98C0170 /* libjingle_media.a */; };
+		D05CC49B8AB34C95AEF07065 /* libremote_bitrate_estimator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAE01FD489D4B4DA44FF93D /* libremote_bitrate_estimator.a */; };
+		D0ABA7416D474074BB14B7CF /* libwebrtc_vp9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D24EEBB39731419F91217E51 /* libwebrtc_vp9.a */; };
+		D2BC99B04B3643AE91212FB5 /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B09C7D0FB796484A9C4CAE7B /* libwebrtc.a */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		D4F3E8497CA54006B2AFEB61 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE508817DEFE4B168CB2D488 /* GLKit.framework */; };
+		D82EEB07C32C4E64A1EEFF2D /* libvideo_render_module.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF803A7E7EB49D5A7072A02 /* libvideo_render_module.a */; };
+		DA122884A187417C8186EDE4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC47D24B0044F86A79381D9 /* Session.swift */; };
+		DF0B7DB49E324A4AB2F71DF3 /* libjsoncpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A894E071A343F08952D650 /* libjsoncpp.a */; };
+		E1280C42BF1847BFA67D98A1 /* libwebrtc_video_coding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF90586FB99D4D6B9E122242 /* libwebrtc_video_coding.a */; };
+		E291EC01EBF64622AF92E315 /* libwebrtc_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A72A354DDD441AB9E10C99 /* libwebrtc_common.a */; };
+		E312261E6F494FA6A3F1A5B8 /* SessionDescriptionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529226E26F45E08295CCCF /* SessionDescriptionDelegate.swift */; };
+		E48748D3B10242538F565098 /* libjingle_peerconnection_objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A568BAD29449B79418F5D9 /* libjingle_peerconnection_objc.a */; };
+		E83F135F022943D6B2956F41 /* libcrnss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E35C6FCD942E4BBEAB737DC1 /* libcrnss.a */; };
+		EA49259887244561B1844705 /* libvideo_capture_module_internal_impl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9773240AB84B7A9BA799E0 /* libvideo_capture_module_internal_impl.a */; };
+		EB2712A60910447EB92D44D8 /* libvideo_coding_utility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A5EB202E004B4BABE629A6 /* libvideo_coding_utility.a */; };
+		F3BEFE38F83849748B930D20 /* libaudio_processing_neon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53229CA8A3E442DB859E1DE7 /* libaudio_processing_neon.a */; };
+		F415788A03654447BBE17B5D /* libjingle_p2p.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D72DFEA8EF414DB304372F /* libjingle_p2p.a */; };
+		F418EBEB1D6D45B6A235AA1C /* libusrsctplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D6DBBE25F2400FAA730BCE /* libusrsctplib.a */; };
+		F492A6312A9D457A96D8CBCD /* libvoice_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C253B469411481D801CD46C /* libvoice_engine.a */; };
+		F5541D6FEA3D45A69A67A2E9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14CC332C68D4BE4927E9B59 /* CoreVideo.framework */; };
+		F92FC6F505B64243B77A995D /* libiSAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485E7292AB44D919EABDC63 /* libiSAC.a */; };
+		FAD6D354A3C8411B886E98CB /* libvideo_engine_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1717953097AE4074AACBA78C /* libvideo_engine_core.a */; };
+		FC1A5C2873F64A019D1454D6 /* libmetrics_default.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC8165BE4B54707B9EE78F4 /* libmetrics_default.a */; };
+		FF6D36C8D8C84E9085E3A2DC /* libsystem_wrappers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 246247F34CC24846BCAA38FD /* libsystem_wrappers.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,18 +149,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0023C88758BA4F1DB8109706 /* PCObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = PCObserver.swift; path = com.dooble.phonertc/PCObserver.swift; sourceTree = "<group>"; };
+		019783AD308648CBB7CBDE04 /* libvideo_processing.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvideo_processing.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvideo_processing.a; sourceTree = "<group>"; };
+		040FF94E3F3140A69B2D537A /* RTCMediaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCMediaSource.h; path = com.dooble.phonertc/RTCMediaSource.h; sourceTree = "<group>"; };
+		0485E7292AB44D919EABDC63 /* libiSAC.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libiSAC.a; path = HelloCordova/Plugins/com.dooble.phonertc/libiSAC.a; sourceTree = "<group>"; };
+		04ABBE28E1A64E37BCB07288 /* libiSACFix.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libiSACFix.a; path = HelloCordova/Plugins/com.dooble.phonertc/libiSACFix.a; sourceTree = "<group>"; };
+		062D165158D04309A655BDCC /* RTCVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCVideoRenderer.h; path = com.dooble.phonertc/RTCVideoRenderer.h; sourceTree = "<group>"; };
+		0838F02F3DCE46C3BC7FB346 /* RTCStatsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCStatsDelegate.h; path = com.dooble.phonertc/RTCStatsDelegate.h; sourceTree = "<group>"; };
+		0C2335C69F174A6AA1BC592B /* libisac_neon.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libisac_neon.a; path = HelloCordova/Plugins/com.dooble.phonertc/libisac_neon.a; sourceTree = "<group>"; };
+		0CA45D0BD742431EBAC0B8EA /* libc++.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0FC47D24B0044F86A79381D9 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Session.swift; path = com.dooble.phonertc/Session.swift; sourceTree = "<group>"; };
+		101BE418C6A940C9A86BEB80 /* libcommon_audio_neon.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcommon_audio_neon.a; path = HelloCordova/Plugins/com.dooble.phonertc/libcommon_audio_neon.a; sourceTree = "<group>"; };
+		13032CA211AC44319CAA8B76 /* libvpx_asm_offsets_vpx_scale.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvpx_asm_offsets_vpx_scale.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvpx_asm_offsets_vpx_scale.a; sourceTree = "<group>"; };
+		1717953097AE4074AACBA78C /* libvideo_engine_core.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvideo_engine_core.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvideo_engine_core.a; sourceTree = "<group>"; };
+		17949688297D4C149F684B4B /* libneteq.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libneteq.a; path = HelloCordova/Plugins/com.dooble.phonertc/libneteq.a; sourceTree = "<group>"; };
+		1A020933EF154345BCAB0354 /* libcrssl.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcrssl.a; path = HelloCordova/Plugins/com.dooble.phonertc/libcrssl.a; sourceTree = "<group>"; };
+		1C2873CBF63445C68C49B9FB /* AVFoundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1C2C930492F647D898113B5C /* librtp_rtcp.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librtp_rtcp.a; path = HelloCordova/Plugins/com.dooble.phonertc/librtp_rtcp.a; sourceTree = "<group>"; };
+		1CF803A7E7EB49D5A7072A02 /* libvideo_render_module.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvideo_render_module.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvideo_render_module.a; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloCordova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3EF2B3B4DE436D8BECA247 /* libcommon_audio.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcommon_audio.a; path = HelloCordova/Plugins/com.dooble.phonertc/libcommon_audio.a; sourceTree = "<group>"; };
+		1FC3DD63368A449A8AC148F8 /* RTCDataChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCDataChannel.h; path = com.dooble.phonertc/RTCDataChannel.h; sourceTree = "<group>"; };
+		246247F34CC24846BCAA38FD /* libsystem_wrappers.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libsystem_wrappers.a; path = HelloCordova/Plugins/com.dooble.phonertc/libsystem_wrappers.a; sourceTree = "<group>"; };
+		25D8F1A1C37044DA8A05A745 /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionDelegate.h; path = com.dooble.phonertc/RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
+		2845B25F09AC42CB9B404B1B /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA5327DA8314913ABE2B27D /* libaudio_processing.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libaudio_processing.a; path = HelloCordova/Plugins/com.dooble.phonertc/libaudio_processing.a; sourceTree = "<group>"; };
+		2F34C154FD1147BD8B59517E /* librtc_xmllite.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librtc_xmllite.a; path = HelloCordova/Plugins/com.dooble.phonertc/librtc_xmllite.a; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		303302A27C6B4277B78B227E /* CoreAudio.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
@@ -87,8 +200,43 @@
 		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
 		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		322164866735463EA5B89082 /* RTCSessionDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescription.h; path = com.dooble.phonertc/RTCSessionDescription.h; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
+		3319D666205D4609ADDC6FAC /* librtc_base_approved.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librtc_base_approved.a; path = HelloCordova/Plugins/com.dooble.phonertc/librtc_base_approved.a; sourceTree = "<group>"; };
+		33AC06D6D3C7464CA667C98C /* librbe_components.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librbe_components.a; path = HelloCordova/Plugins/com.dooble.phonertc/librbe_components.a; sourceTree = "<group>"; };
+		3611720E916943BC847E8570 /* libfield_trial_default.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libfield_trial_default.a; path = HelloCordova/Plugins/com.dooble.phonertc/libfield_trial_default.a; sourceTree = "<group>"; };
+		36B6D271C9FC4A4DA4119553 /* librtc_xmpp.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librtc_xmpp.a; path = HelloCordova/Plugins/com.dooble.phonertc/librtc_xmpp.a; sourceTree = "<group>"; };
+		390F3484C9C64E03962FBCC5 /* lib_core_neon_offsets.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = lib_core_neon_offsets.a; path = HelloCordova/Plugins/com.dooble.phonertc/lib_core_neon_offsets.a; sourceTree = "<group>"; };
+		3AF1E04F52904934BF8FBBE8 /* libvpx.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvpx.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvpx.a; sourceTree = "<group>"; };
+		3F529226E26F45E08295CCCF /* SessionDescriptionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = SessionDescriptionDelegate.swift; path = com.dooble.phonertc/SessionDescriptionDelegate.swift; sourceTree = "<group>"; };
+		450D5A4417054FF882B89DF2 /* RTCVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCVideoSource.h; path = com.dooble.phonertc/RTCVideoSource.h; sourceTree = "<group>"; };
+		4A69C5B76D664FCC9FF51101 /* libG711.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libG711.a; path = HelloCordova/Plugins/com.dooble.phonertc/libG711.a; sourceTree = "<group>"; };
+		4AAE01FD489D4B4DA44FF93D /* libremote_bitrate_estimator.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libremote_bitrate_estimator.a; path = HelloCordova/Plugins/com.dooble.phonertc/libremote_bitrate_estimator.a; sourceTree = "<group>"; };
+		4C253B469411481D801CD46C /* libvoice_engine.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvoice_engine.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvoice_engine.a; sourceTree = "<group>"; };
+		4EC773726BF34028950F0A02 /* libsrtp.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libsrtp.a; path = HelloCordova/Plugins/com.dooble.phonertc/libsrtp.a; sourceTree = "<group>"; };
+		4FC4C7A655814B10A05B8361 /* libaudio_device.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libaudio_device.a; path = HelloCordova/Plugins/com.dooble.phonertc/libaudio_device.a; sourceTree = "<group>"; };
+		511B2618F94D46F9B253C8E8 /* libcommon_video.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcommon_video.a; path = HelloCordova/Plugins/com.dooble.phonertc/libcommon_video.a; sourceTree = "<group>"; };
+		51765F542DE244FA9D2BF7C3 /* libbitrate_controller.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libbitrate_controller.a; path = HelloCordova/Plugins/com.dooble.phonertc/libbitrate_controller.a; sourceTree = "<group>"; };
+		53229CA8A3E442DB859E1DE7 /* libaudio_processing_neon.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libaudio_processing_neon.a; path = HelloCordova/Plugins/com.dooble.phonertc/libaudio_processing_neon.a; sourceTree = "<group>"; };
+		53DD0168B4644D118303CA0D /* libwebrtc_opus.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc_opus.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc_opus.a; sourceTree = "<group>"; };
+		55EE01C5F12D43E0B7F1C886 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCMediaStreamTrack.h; path = com.dooble.phonertc/RTCMediaStreamTrack.h; sourceTree = "<group>"; };
+		56A568BAD29449B79418F5D9 /* libjingle_peerconnection_objc.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libjingle_peerconnection_objc.a; path = HelloCordova/Plugins/com.dooble.phonertc/libjingle_peerconnection_objc.a; sourceTree = "<group>"; };
+		592D3D89E49E4ACBA5CA2C03 /* libvideo_capture_module.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvideo_capture_module.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvideo_capture_module.a; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		64A72A354DDD441AB9E10C99 /* libwebrtc_common.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc_common.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc_common.a; sourceTree = "<group>"; };
+		67AF417EC27E48F18C915FAE /* libwebrtc_vp8.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc_vp8.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc_vp8.a; sourceTree = "<group>"; };
+		68614791F03B4524AF4A6488 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCVideoCapturer.h; path = com.dooble.phonertc/RTCVideoCapturer.h; sourceTree = "<group>"; };
+		69DD3765DBF44A0CA5553275 /* RTCICEServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCICEServer.h; path = com.dooble.phonertc/RTCICEServer.h; sourceTree = "<group>"; };
+		6E43CF4935F24DFE861E0CAC /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescriptionDelegate.h; path = com.dooble.phonertc/RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
+		6E9773240AB84B7A9BA799E0 /* libvideo_capture_module_internal_impl.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvideo_capture_module_internal_impl.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvideo_capture_module_internal_impl.a; sourceTree = "<group>"; };
+		75CB73230E2E4294A5CA4457 /* RTCStatsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCStatsReport.h; path = com.dooble.phonertc/RTCStatsReport.h; sourceTree = "<group>"; };
+		76AF11928D1E4FE393C35BBE /* libiLBC.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libiLBC.a; path = HelloCordova/Plugins/com.dooble.phonertc/libiLBC.a; sourceTree = "<group>"; };
+		76E15AE389BB4B1FB077C721 /* RTCAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCAudioSource.h; path = com.dooble.phonertc/RTCAudioSource.h; sourceTree = "<group>"; };
+		779C5216ADBA4035A3481C07 /* RTCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCTypes.h; path = com.dooble.phonertc/RTCTypes.h; sourceTree = "<group>"; };
+		77EB112A4003406F9FA9FCAB /* libjingle_peerconnection.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libjingle_peerconnection.a; path = HelloCordova/Plugins/com.dooble.phonertc/libjingle_peerconnection.a; sourceTree = "<group>"; };
+		79452E5E46914C11996DD6A6 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Config.swift; path = com.dooble.phonertc/Config.swift; sourceTree = "<group>"; };
+		796FE9E4E06F452D802B4875 /* libsqlite_regexp.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libsqlite_regexp.a; path = HelloCordova/Plugins/com.dooble.phonertc/libsqlite_regexp.a; sourceTree = "<group>"; };
+		798F5E2026724F278FB2C59C /* librtc_base.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librtc_base.a; path = HelloCordova/Plugins/com.dooble.phonertc/librtc_base.a; sourceTree = "<group>"; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -99,12 +247,67 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		8169F9CAE3D843E3B67F35BF /* libvpx_asm_offsets_vp8.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvpx_asm_offsets_vp8.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvpx_asm_offsets_vp8.a; sourceTree = "<group>"; };
+		874E095AC11E4C1CAE08C5B4 /* RTCI420Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCI420Frame.h; path = com.dooble.phonertc/RTCI420Frame.h; sourceTree = "<group>"; };
+		89A5EB202E004B4BABE629A6 /* libvideo_coding_utility.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvideo_coding_utility.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvideo_coding_utility.a; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "../HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8F8BF7AB66084E329B87FFA1 /* RTCMediaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCMediaConstraints.h; path = com.dooble.phonertc/RTCMediaConstraints.h; sourceTree = "<group>"; };
+		91919291697D4A1E9E1B290A /* libexpat.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libexpat.a; path = HelloCordova/Plugins/com.dooble.phonertc/libexpat.a; sourceTree = "<group>"; };
+		91FBF5DB6F934378910E5B22 /* libaudio_coding_module.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libaudio_coding_module.a; path = HelloCordova/Plugins/com.dooble.phonertc/libaudio_coding_module.a; sourceTree = "<group>"; };
+		93456DDF4EB94ED2B8887DB3 /* RTCPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCPair.h; path = com.dooble.phonertc/RTCPair.h; sourceTree = "<group>"; };
+		93D6DBBE25F2400FAA730BCE /* libusrsctplib.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libusrsctplib.a; path = HelloCordova/Plugins/com.dooble.phonertc/libusrsctplib.a; sourceTree = "<group>"; };
+		96365B96D2DC4227919243C7 /* libicudata.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libicudata.a; path = HelloCordova/Plugins/com.dooble.phonertc/libicudata.a; sourceTree = "<group>"; };
+		985915DC2B234273A1C9B923 /* libicuuc.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libicuuc.a; path = HelloCordova/Plugins/com.dooble.phonertc/libicuuc.a; sourceTree = "<group>"; };
+		98DC87BC22934F60BCE8B28F /* RTCVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCVideoTrack.h; path = com.dooble.phonertc/RTCVideoTrack.h; sourceTree = "<group>"; };
+		9A41DF6E096045F0BEC565B6 /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCOpenGLVideoRenderer.h; path = com.dooble.phonertc/RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
+		9B6320012A51460AB25A8F94 /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCNSGLVideoView.h; path = com.dooble.phonertc/RTCNSGLVideoView.h; sourceTree = "<group>"; };
+		9C1D8F2708D348D88A531136 /* libCNG.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libCNG.a; path = HelloCordova/Plugins/com.dooble.phonertc/libCNG.a; sourceTree = "<group>"; };
+		9C43AC11714245BA873D34A6 /* libcrnspr.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcrnspr.a; path = HelloCordova/Plugins/com.dooble.phonertc/libcrnspr.a; sourceTree = "<group>"; };
+		9D118E473A064080A84CAB4D /* libwebrtc_utility.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc_utility.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc_utility.a; sourceTree = "<group>"; };
+		9FA67794574D409DA92BAABE /* libmedia_file.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libmedia_file.a; path = HelloCordova/Plugins/com.dooble.phonertc/libmedia_file.a; sourceTree = "<group>"; };
+		A495539F00864131A98C0170 /* libjingle_media.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libjingle_media.a; path = HelloCordova/Plugins/com.dooble.phonertc/libjingle_media.a; sourceTree = "<group>"; };
+		A4B4EF8653DC43F4847E2D10 /* libstdc++.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		A9A01E997A424D998DB88539 /* libpaced_sender.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libpaced_sender.a; path = HelloCordova/Plugins/com.dooble.phonertc/libpaced_sender.a; sourceTree = "<group>"; };
+		AA4A1E3F23DF402A9B16F623 /* libG722.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libG722.a; path = HelloCordova/Plugins/com.dooble.phonertc/libG722.a; sourceTree = "<group>"; };
+		AAA906C7D9E44FB69D0A0DD6 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AACD2FFEF65643AF934AF41C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		ABA1C07F899B43AFA0902BDF /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionFactory.h; path = com.dooble.phonertc/RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		AE40A24B5664424486AA2A1E /* libyuv.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libyuv.a; path = HelloCordova/Plugins/com.dooble.phonertc/libyuv.a; sourceTree = "<group>"; };
+		AE508817DEFE4B168CB2D488 /* GLKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AF4073C1625A41E9B4364025 /* librtc_sound.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librtc_sound.a; path = HelloCordova/Plugins/com.dooble.phonertc/librtc_sound.a; sourceTree = "<group>"; };
+		B09C7D0FB796484A9C4CAE7B /* libwebrtc.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc.a; sourceTree = "<group>"; };
+		B151EEE76E2648918DCEAF5B /* libopus.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libopus.a; path = HelloCordova/Plugins/com.dooble.phonertc/libopus.a; sourceTree = "<group>"; };
+		B18489A299A24AB08D4CFFBC /* libnss_static.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libnss_static.a; path = HelloCordova/Plugins/com.dooble.phonertc/libnss_static.a; sourceTree = "<group>"; };
+		B4D72DFEA8EF414DB304372F /* libjingle_p2p.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libjingle_p2p.a; path = HelloCordova/Plugins/com.dooble.phonertc/libjingle_p2p.a; sourceTree = "<group>"; };
+		B9488A21C2D0481983F519CC /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "com.dooble.phonertc/Bridging-Header.h"; sourceTree = "<group>"; };
+		BF64647D3C194FF49C1D5082 /* libPCM16B.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libPCM16B.a; path = HelloCordova/Plugins/com.dooble.phonertc/libPCM16B.a; sourceTree = "<group>"; };
+		C4B7AC6644B242E696A89B2C /* CoreLocation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CCC8165BE4B54707B9EE78F4 /* libmetrics_default.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libmetrics_default.a; path = HelloCordova/Plugins/com.dooble.phonertc/libmetrics_default.a; sourceTree = "<group>"; };
+		CD4DDA75B865496694F61926 /* CoreMedia.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CF331759FC6F46CCA2D9E7FD /* RTCICECandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCICECandidate.h; path = com.dooble.phonertc/RTCICECandidate.h; sourceTree = "<group>"; };
+		D24EEBB39731419F91217E51 /* libwebrtc_vp9.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc_vp9.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc_vp9.a; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		D5B501DA4E414444A5B65FE7 /* libaudio_conference_mixer.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libaudio_conference_mixer.a; path = HelloCordova/Plugins/com.dooble.phonertc/libaudio_conference_mixer.a; sourceTree = "<group>"; };
+		DA113D716A1A424AB9C7D0CA /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCEAGLVideoView.h; path = com.dooble.phonertc/RTCEAGLVideoView.h; sourceTree = "<group>"; };
+		DB806DCAB99D46F892A95A5B /* RTCMediaStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCMediaStream.h; path = com.dooble.phonertc/RTCMediaStream.h; sourceTree = "<group>"; };
+		DC41B70A5D8246EB93F2A31C /* libicui18n.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libicui18n.a; path = HelloCordova/Plugins/com.dooble.phonertc/libicui18n.a; sourceTree = "<group>"; };
+		DC5B8EE6884B44BE87FD0EED /* libvideo_render_module_internal_impl.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libvideo_render_module_internal_impl.a; path = HelloCordova/Plugins/com.dooble.phonertc/libvideo_render_module_internal_impl.a; sourceTree = "<group>"; };
+		DE096A59838444C08B023290 /* libyuv_neon.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libyuv_neon.a; path = HelloCordova/Plugins/com.dooble.phonertc/libyuv_neon.a; sourceTree = "<group>"; };
+		DF90586FB99D4D6B9E122242 /* libwebrtc_video_coding.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc_video_coding.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc_video_coding.a; sourceTree = "<group>"; };
+		E1D25BDCB64A4178A0F00A93 /* librtc_p2p.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = librtc_p2p.a; path = HelloCordova/Plugins/com.dooble.phonertc/librtc_p2p.a; sourceTree = "<group>"; };
+		E35C6FCD942E4BBEAB737DC1 /* libcrnss.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcrnss.a; path = HelloCordova/Plugins/com.dooble.phonertc/libcrnss.a; sourceTree = "<group>"; };
+		E65D21521F884F1CA33A1381 /* libcrnssckbi.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libcrnssckbi.a; path = HelloCordova/Plugins/com.dooble.phonertc/libcrnssckbi.a; sourceTree = "<group>"; };
+		E9A894E071A343F08952D650 /* libjsoncpp.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libjsoncpp.a; path = HelloCordova/Plugins/com.dooble.phonertc/libjsoncpp.a; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloCordova/config.xml"; sourceTree = "<group>"; };
+		EFA03C149BAE49DA95202C79 /* PhoneRTCPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = PhoneRTCPlugin.swift; path = com.dooble.phonertc/PhoneRTCPlugin.swift; sourceTree = "<group>"; };
+		F12431F3E922480CBA6DCF38 /* OpenGLES.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F1472280B6B9430291C56FB7 /* RTCAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCAudioTrack.h; path = com.dooble.phonertc/RTCAudioTrack.h; sourceTree = "<group>"; };
+		F14CC332C68D4BE4927E9B59 /* CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F20150D827644561854BC850 /* libwebrtc_i420.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libwebrtc_i420.a; path = HelloCordova/Plugins/com.dooble.phonertc/libwebrtc_i420.a; sourceTree = "<group>"; };
+		F43AF5FF695D44D88105DAEE /* RTCPeerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnection.h; path = com.dooble.phonertc/RTCPeerConnection.h; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +319,90 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				F415788A03654447BBE17B5D /* libjingle_p2p.a in Frameworks */,
+				074BC815F903466FB87DE0EA /* lib_core_neon_offsets.a in Frameworks */,
+				B8D0CEDCA5BA43EAA8E2706F /* libaudio_coding_module.a in Frameworks */,
+				61B4F8EA1F4D4725BE02D908 /* libaudio_conference_mixer.a in Frameworks */,
+				5DC544ECBE564B9DA7499AD1 /* libaudio_device.a in Frameworks */,
+				F3BEFE38F83849748B930D20 /* libaudio_processing_neon.a in Frameworks */,
+				A78FB70CEE3043759C3D5E6F /* libaudio_processing.a in Frameworks */,
+				9AE75097D2F844BFAF1C85ED /* libbitrate_controller.a in Frameworks */,
+				7545827F549943BE8BF8CF88 /* libCNG.a in Frameworks */,
+				4E6B69FF8A814CBC861F5590 /* libcommon_audio_neon.a in Frameworks */,
+				49E427000CF648ABB71AA7CB /* libcommon_audio.a in Frameworks */,
+				72F65227AFE84D588B27D64A /* libcommon_video.a in Frameworks */,
+				3DD4BD3DEEBF4151B5ECFCF5 /* libcrnspr.a in Frameworks */,
+				E83F135F022943D6B2956F41 /* libcrnss.a in Frameworks */,
+				A379BB75E39D4D179E2A2904 /* libcrnssckbi.a in Frameworks */,
+				214C4D697CB044E087387754 /* libcrssl.a in Frameworks */,
+				5B6638A810C049C98AE0CF6A /* libexpat.a in Frameworks */,
+				00CB9749A05F4B329877D352 /* libfield_trial_default.a in Frameworks */,
+				97C5C4D7E7E049BCB9811D56 /* libG711.a in Frameworks */,
+				74ECDC4FC76B4570A7F0562B /* libG722.a in Frameworks */,
+				171BC72A056C4608A66A8408 /* libicudata.a in Frameworks */,
+				B24210F11CA44406965CFD76 /* libicui18n.a in Frameworks */,
+				09D3A70C6E364A2383FFF039 /* libicuuc.a in Frameworks */,
+				A40BA8142D5941FFAECC8A46 /* libiLBC.a in Frameworks */,
+				1384807CF03B4C6BAE41462E /* libisac_neon.a in Frameworks */,
+				F92FC6F505B64243B77A995D /* libiSAC.a in Frameworks */,
+				7247A117D5CD4F1DBBBA813F /* libiSACFix.a in Frameworks */,
+				CDF0235FD62D46DF870D8D69 /* libjingle_media.a in Frameworks */,
+				E48748D3B10242538F565098 /* libjingle_peerconnection_objc.a in Frameworks */,
+				A6F79599D880440F8A1F1BBE /* libjingle_peerconnection.a in Frameworks */,
+				DF0B7DB49E324A4AB2F71DF3 /* libjsoncpp.a in Frameworks */,
+				8110DA7A978D4E27867324FE /* libmedia_file.a in Frameworks */,
+				45A879988A6549159F3D7265 /* libneteq.a in Frameworks */,
+				0746DEFF4CBD4CF1A82B92DE /* libnss_static.a in Frameworks */,
+				FC1A5C2873F64A019D1454D6 /* libmetrics_default.a in Frameworks */,
+				7609CD1495204F21AC94F38B /* librtc_p2p.a in Frameworks */,
+				D0ABA7416D474074BB14B7CF /* libwebrtc_vp9.a in Frameworks */,
+				68616C6AB6E54B5FAEBD8A37 /* librtc_xmpp.a in Frameworks */,
+				4818B6469A384DA7A1B5B0B2 /* libopus.a in Frameworks */,
+				3DEA1DF7867843638C4FE008 /* libpaced_sender.a in Frameworks */,
+				6044E5FB0F2B47939D0C1B8E /* libPCM16B.a in Frameworks */,
+				94CE3E6D95E54F8CBAD9AAB8 /* librbe_components.a in Frameworks */,
+				D05CC49B8AB34C95AEF07065 /* libremote_bitrate_estimator.a in Frameworks */,
+				1E5B69EA5AD84E548B632B62 /* librtc_base_approved.a in Frameworks */,
+				0248D1D3B93C4F88AACC2390 /* librtc_base.a in Frameworks */,
+				8F7620F4B6384BD2BE0D8332 /* librtc_sound.a in Frameworks */,
+				5955E5E227164DA69180D558 /* librtc_xmllite.a in Frameworks */,
+				9A6FCF32D71244BC9C249FF2 /* librtp_rtcp.a in Frameworks */,
+				7E2478815DB34FEF898B84F9 /* libsqlite_regexp.a in Frameworks */,
+				9CAD4C77619840BBB11FDAF8 /* libsrtp.a in Frameworks */,
+				FF6D36C8D8C84E9085E3A2DC /* libsystem_wrappers.a in Frameworks */,
+				F418EBEB1D6D45B6A235AA1C /* libusrsctplib.a in Frameworks */,
+				EA49259887244561B1844705 /* libvideo_capture_module_internal_impl.a in Frameworks */,
+				BC309F355D8A41B6B22C43F1 /* libvideo_capture_module.a in Frameworks */,
+				EB2712A60910447EB92D44D8 /* libvideo_coding_utility.a in Frameworks */,
+				FAD6D354A3C8411B886E98CB /* libvideo_engine_core.a in Frameworks */,
+				B3BBF376899849F6884A6B34 /* libvideo_processing.a in Frameworks */,
+				2E8D97EB832E481A937CDFEE /* libvideo_render_module_internal_impl.a in Frameworks */,
+				D82EEB07C32C4E64A1EEFF2D /* libvideo_render_module.a in Frameworks */,
+				F492A6312A9D457A96D8CBCD /* libvoice_engine.a in Frameworks */,
+				A7508709D15D4B4A8D4039F2 /* libvpx_asm_offsets_vp8.a in Frameworks */,
+				24869CD92C5F4442B5F2CA20 /* libvpx_asm_offsets_vpx_scale.a in Frameworks */,
+				194B5D9C0F95449F97D26033 /* libvpx.a in Frameworks */,
+				E291EC01EBF64622AF92E315 /* libwebrtc_common.a in Frameworks */,
+				5B7F55F543CB41B988A6494E /* libwebrtc_i420.a in Frameworks */,
+				A5929145104246C3B516A741 /* libwebrtc_opus.a in Frameworks */,
+				2B9CBC3734AB473B869CB88E /* libwebrtc_utility.a in Frameworks */,
+				E1280C42BF1847BFA67D98A1 /* libwebrtc_video_coding.a in Frameworks */,
+				7BE520739F434386A035E6E0 /* libwebrtc_vp8.a in Frameworks */,
+				D2BC99B04B3643AE91212FB5 /* libwebrtc.a in Frameworks */,
+				B8B6C23C030E47178EAB8324 /* libyuv_neon.a in Frameworks */,
+				B6E16B799DC54D9EA3CB7824 /* libyuv.a in Frameworks */,
+				80EA43B246A845358C9440F1 /* libc++.dylib in Frameworks */,
+				6D77EC0DD22F48A18E645DC6 /* libstdc++.dylib in Frameworks */,
+				0AB847F4889743AA9BFA31AD /* libsqlite3.0.dylib in Frameworks */,
+				538C5DD998A04E46BB5BABFA /* OpenGLES.framework in Frameworks */,
+				F5541D6FEA3D45A69A67A2E9 /* CoreVideo.framework in Frameworks */,
+				121D7CD1F01E4B3A808CE45C /* CoreMedia.framework in Frameworks */,
+				3419021A91CD4CE48B674975 /* CoreAudio.framework in Frameworks */,
+				35F92465C6F14B59ABDA3367 /* AVFoundation.framework in Frameworks */,
+				763610DD3A3641E4B41448FF /* QuartzCore.framework in Frameworks */,
+				5AB9A11FEDE44B0BA9390672 /* CoreLocation.framework in Frameworks */,
+				5837129543954EE1BFCDDEF6 /* AudioToolbox.framework in Frameworks */,
+				D4F3E8497CA54006B2AFEB61 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +419,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "HelloCordova/Classes";
+			path = HelloCordova/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -168,7 +455,7 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = "HelloCordova";
+			path = HelloCordova;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -179,7 +466,7 @@
 				8D1107310486CEB800E47090 /* HelloCordova-Info.plist */,
 			);
 			name = Resources;
-			path = "HelloCordova/Resources";
+			path = HelloCordova/Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -188,6 +475,90 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				B4D72DFEA8EF414DB304372F /* libjingle_p2p.a */,
+				390F3484C9C64E03962FBCC5 /* lib_core_neon_offsets.a */,
+				91FBF5DB6F934378910E5B22 /* libaudio_coding_module.a */,
+				D5B501DA4E414444A5B65FE7 /* libaudio_conference_mixer.a */,
+				4FC4C7A655814B10A05B8361 /* libaudio_device.a */,
+				53229CA8A3E442DB859E1DE7 /* libaudio_processing_neon.a */,
+				2BA5327DA8314913ABE2B27D /* libaudio_processing.a */,
+				51765F542DE244FA9D2BF7C3 /* libbitrate_controller.a */,
+				9C1D8F2708D348D88A531136 /* libCNG.a */,
+				101BE418C6A940C9A86BEB80 /* libcommon_audio_neon.a */,
+				1F3EF2B3B4DE436D8BECA247 /* libcommon_audio.a */,
+				511B2618F94D46F9B253C8E8 /* libcommon_video.a */,
+				9C43AC11714245BA873D34A6 /* libcrnspr.a */,
+				E35C6FCD942E4BBEAB737DC1 /* libcrnss.a */,
+				E65D21521F884F1CA33A1381 /* libcrnssckbi.a */,
+				1A020933EF154345BCAB0354 /* libcrssl.a */,
+				91919291697D4A1E9E1B290A /* libexpat.a */,
+				3611720E916943BC847E8570 /* libfield_trial_default.a */,
+				4A69C5B76D664FCC9FF51101 /* libG711.a */,
+				AA4A1E3F23DF402A9B16F623 /* libG722.a */,
+				96365B96D2DC4227919243C7 /* libicudata.a */,
+				DC41B70A5D8246EB93F2A31C /* libicui18n.a */,
+				985915DC2B234273A1C9B923 /* libicuuc.a */,
+				76AF11928D1E4FE393C35BBE /* libiLBC.a */,
+				0C2335C69F174A6AA1BC592B /* libisac_neon.a */,
+				0485E7292AB44D919EABDC63 /* libiSAC.a */,
+				04ABBE28E1A64E37BCB07288 /* libiSACFix.a */,
+				A495539F00864131A98C0170 /* libjingle_media.a */,
+				56A568BAD29449B79418F5D9 /* libjingle_peerconnection_objc.a */,
+				77EB112A4003406F9FA9FCAB /* libjingle_peerconnection.a */,
+				E9A894E071A343F08952D650 /* libjsoncpp.a */,
+				9FA67794574D409DA92BAABE /* libmedia_file.a */,
+				17949688297D4C149F684B4B /* libneteq.a */,
+				B18489A299A24AB08D4CFFBC /* libnss_static.a */,
+				CCC8165BE4B54707B9EE78F4 /* libmetrics_default.a */,
+				E1D25BDCB64A4178A0F00A93 /* librtc_p2p.a */,
+				D24EEBB39731419F91217E51 /* libwebrtc_vp9.a */,
+				36B6D271C9FC4A4DA4119553 /* librtc_xmpp.a */,
+				B151EEE76E2648918DCEAF5B /* libopus.a */,
+				A9A01E997A424D998DB88539 /* libpaced_sender.a */,
+				BF64647D3C194FF49C1D5082 /* libPCM16B.a */,
+				33AC06D6D3C7464CA667C98C /* librbe_components.a */,
+				4AAE01FD489D4B4DA44FF93D /* libremote_bitrate_estimator.a */,
+				3319D666205D4609ADDC6FAC /* librtc_base_approved.a */,
+				798F5E2026724F278FB2C59C /* librtc_base.a */,
+				AF4073C1625A41E9B4364025 /* librtc_sound.a */,
+				2F34C154FD1147BD8B59517E /* librtc_xmllite.a */,
+				1C2C930492F647D898113B5C /* librtp_rtcp.a */,
+				796FE9E4E06F452D802B4875 /* libsqlite_regexp.a */,
+				4EC773726BF34028950F0A02 /* libsrtp.a */,
+				246247F34CC24846BCAA38FD /* libsystem_wrappers.a */,
+				93D6DBBE25F2400FAA730BCE /* libusrsctplib.a */,
+				6E9773240AB84B7A9BA799E0 /* libvideo_capture_module_internal_impl.a */,
+				592D3D89E49E4ACBA5CA2C03 /* libvideo_capture_module.a */,
+				89A5EB202E004B4BABE629A6 /* libvideo_coding_utility.a */,
+				1717953097AE4074AACBA78C /* libvideo_engine_core.a */,
+				019783AD308648CBB7CBDE04 /* libvideo_processing.a */,
+				DC5B8EE6884B44BE87FD0EED /* libvideo_render_module_internal_impl.a */,
+				1CF803A7E7EB49D5A7072A02 /* libvideo_render_module.a */,
+				4C253B469411481D801CD46C /* libvoice_engine.a */,
+				8169F9CAE3D843E3B67F35BF /* libvpx_asm_offsets_vp8.a */,
+				13032CA211AC44319CAA8B76 /* libvpx_asm_offsets_vpx_scale.a */,
+				3AF1E04F52904934BF8FBBE8 /* libvpx.a */,
+				64A72A354DDD441AB9E10C99 /* libwebrtc_common.a */,
+				F20150D827644561854BC850 /* libwebrtc_i420.a */,
+				53DD0168B4644D118303CA0D /* libwebrtc_opus.a */,
+				9D118E473A064080A84CAB4D /* libwebrtc_utility.a */,
+				DF90586FB99D4D6B9E122242 /* libwebrtc_video_coding.a */,
+				67AF417EC27E48F18C915FAE /* libwebrtc_vp8.a */,
+				B09C7D0FB796484A9C4CAE7B /* libwebrtc.a */,
+				DE096A59838444C08B023290 /* libyuv_neon.a */,
+				AE40A24B5664424486AA2A1E /* libyuv.a */,
+				0CA45D0BD742431EBAC0B8EA /* libc++.dylib */,
+				A4B4EF8653DC43F4847E2D10 /* libstdc++.dylib */,
+				AACD2FFEF65643AF934AF41C /* libsqlite3.0.dylib */,
+				F12431F3E922480CBA6DCF38 /* OpenGLES.framework */,
+				F14CC332C68D4BE4927E9B59 /* CoreVideo.framework */,
+				CD4DDA75B865496694F61926 /* CoreMedia.framework */,
+				303302A27C6B4277B78B227E /* CoreAudio.framework */,
+				1C2873CBF63445C68C49B9FB /* AVFoundation.framework */,
+				2845B25F09AC42CB9B404B1B /* QuartzCore.framework */,
+				C4B7AC6644B242E696A89B2C /* CoreLocation.framework */,
+				AAA906C7D9E44FB69D0A0DD6 /* AudioToolbox.framework */,
+				AE508817DEFE4B168CB2D488 /* GLKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,9 +574,41 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				EFA03C149BAE49DA95202C79 /* PhoneRTCPlugin.swift */,
+				0023C88758BA4F1DB8109706 /* PCObserver.swift */,
+				0FC47D24B0044F86A79381D9 /* Session.swift */,
+				79452E5E46914C11996DD6A6 /* Config.swift */,
+				3F529226E26F45E08295CCCF /* SessionDescriptionDelegate.swift */,
+				76E15AE389BB4B1FB077C721 /* RTCAudioSource.h */,
+				F1472280B6B9430291C56FB7 /* RTCAudioTrack.h */,
+				1FC3DD63368A449A8AC148F8 /* RTCDataChannel.h */,
+				DA113D716A1A424AB9C7D0CA /* RTCEAGLVideoView.h */,
+				874E095AC11E4C1CAE08C5B4 /* RTCI420Frame.h */,
+				CF331759FC6F46CCA2D9E7FD /* RTCICECandidate.h */,
+				69DD3765DBF44A0CA5553275 /* RTCICEServer.h */,
+				8F8BF7AB66084E329B87FFA1 /* RTCMediaConstraints.h */,
+				040FF94E3F3140A69B2D537A /* RTCMediaSource.h */,
+				DB806DCAB99D46F892A95A5B /* RTCMediaStream.h */,
+				55EE01C5F12D43E0B7F1C886 /* RTCMediaStreamTrack.h */,
+				9B6320012A51460AB25A8F94 /* RTCNSGLVideoView.h */,
+				9A41DF6E096045F0BEC565B6 /* RTCOpenGLVideoRenderer.h */,
+				93456DDF4EB94ED2B8887DB3 /* RTCPair.h */,
+				F43AF5FF695D44D88105DAEE /* RTCPeerConnection.h */,
+				25D8F1A1C37044DA8A05A745 /* RTCPeerConnectionDelegate.h */,
+				ABA1C07F899B43AFA0902BDF /* RTCPeerConnectionFactory.h */,
+				322164866735463EA5B89082 /* RTCSessionDescription.h */,
+				6E43CF4935F24DFE861E0CAC /* RTCSessionDescriptionDelegate.h */,
+				0838F02F3DCE46C3BC7FB346 /* RTCStatsDelegate.h */,
+				75CB73230E2E4294A5CA4457 /* RTCStatsReport.h */,
+				779C5216ADBA4035A3481C07 /* RTCTypes.h */,
+				68614791F03B4524AF4A6488 /* RTCVideoCapturer.h */,
+				062D165158D04309A655BDCC /* RTCVideoRenderer.h */,
+				450D5A4417054FF882B89DF2 /* RTCVideoSource.h */,
+				98DC87BC22934F60BCE8B28F /* RTCVideoTrack.h */,
+				B9488A21C2D0481983F519CC /* Bridging-Header.h */,
 			);
 			name = Plugins;
-			path = "HelloCordova/Plugins";
+			path = HelloCordova/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -273,8 +676,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "HelloCordova";
-			productName = "HelloCordova";
+			name = HelloCordova;
+			productName = HelloCordova;
 			productReference = 1D6058910D05DD3D006BFB54 /* HelloCordova.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -284,9 +687,9 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 510;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCordova" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -387,6 +790,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				48FE53285F9C4E74A37C621E /* PhoneRTCPlugin.swift in Sources */,
+				50166257779E4009ADA3732F /* PCObserver.swift in Sources */,
+				DA122884A187417C8186EDE4 /* Session.swift in Sources */,
+				479F23988D724BDD8D377AD5 /* Config.swift in Sources */,
+				E312261E6F494FA6A3F1A5B8 /* SessionDescriptionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +822,82 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -427,7 +910,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "HelloCordova";
+				PRODUCT_NAME = HelloCordova;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,7 +926,82 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloCordova/HelloCordova-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+					"\"$(SRCROOT)/HelloCordova/Plugins/com.dooble.phonertc\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -456,7 +1014,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "HelloCordova";
+				PRODUCT_NAME = HelloCordova;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -560,7 +1118,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCordova" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
